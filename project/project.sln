@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "project", "project\project.csproj", "{05E1246E-7A9B-4615-80E7-019D9010C584}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "page", "page", "{2D5148A2-2640-45D3-9F46-98C620F68468}"
+	ProjectSection(SolutionItems) = preProject
+		homepage.cs = homepage.cs
+		login page.cs = login page.cs
+		TMpage.cs = TMpage.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{C458B6DD-D244-4AF8-84AA-8E224E6177C0}"
+	ProjectSection(SolutionItems) = preProject
+		project\Program.cs = project\Program.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "utilities", "utilities", "{9D375D2E-8943-4596-9E22-6E526902D37F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05E1246E-7A9B-4615-80E7-019D9010C584}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05E1246E-7A9B-4615-80E7-019D9010C584}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05E1246E-7A9B-4615-80E7-019D9010C584}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05E1246E-7A9B-4615-80E7-019D9010C584}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C1A290C3-6CFF-4982-80F7-F92C41B2C146}
+	EndGlobalSection
+EndGlobal
