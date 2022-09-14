@@ -10,8 +10,6 @@ namespace August2022.Utilities
 {
     public class WaitHelpers
     {
-        public static object SeleniumExtras { get; private set; }
-
         // reusable function for wait
         public static void WaitToBeClickable(IWebDriver driver, string locator, string locatorValue, int seconds)
         {
